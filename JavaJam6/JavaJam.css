@@ -1,0 +1,158 @@
+header, nav, main, footer { display:block; }  
+
+.floatleft {
+    float:left;
+    padding-right:2em;
+    padding-bottom:2em;
+}
+
+* {box-sizing: border-box;} 
+
+.clear {clear:both}
+
+body {  
+    background-image:url("background.gif");
+    color:#221811;
+    background-color:#fcebb6;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+footer {  
+        background-color:#d2b48c;
+        font-size:.60em;
+        text-align:center;
+        font-style:italic;
+        padding-bottom:10px;
+        border-top: solid 2px;
+        border-top-color:#221811;
+        margin-left:0px;
+        margin-top:25px;
+        margin-right:100px;
+        }
+
+header {  
+    background-color:#d2b48c;
+    height:150px;
+    background-image:url(javajamlogo.jpg);
+    background-repeat:no-repeat;
+
+    }
+
+#wrapper {
+    min-width:900px;
+    max-width:1280px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color:#231814; 
+
+    }
+
+main {
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:2em;
+    padding-top:0px;
+    margin-left:200px;
+    background-color:#fef6c2;
+    }   
+
+#details { 
+    padding-left:20%;
+    padding-right:20%;
+    overflow: auto;
+    }
+
+h1 { 
+    margin:0;
+    padding:10px;
+    padding-top:45px;
+    padding-left:220px;
+    font-size:3em;
+    text-align:center;
+    color:#221811;
+    }
+ 
+h2 {font-size:1.2em;
+    padding-left:3em;
+    padding-right:2em;
+    padding-bottom:5px;
+    }
+
+h3 {padding-left:3em;
+    padding-right:2em;
+    }
+
+h4 {
+    font-size:1.2em;
+    padding-left:.5em;
+    padding-right:2em;
+    padding-bottom:.25em;
+    background-color:#d2b48c;
+    text-transform: uppercase;
+    border-style: outset solid;
+    padding-bottom:0;
+    }
+
+img {
+    padding-left:10px;
+    padding-right:10px;
+    }
+
+nav {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+    padding-top:10px;
+    float:left;
+    width: 200px;
+    }
+
+nav a {
+    text-decoration:none;
+    padding:18px;
+    display: block;
+    }
+
+nav ul {
+    list-style-type:none;
+    padding-left:0;
+    }
+
+nav a:hover {
+    color: #cc9933;
+    font-size:xx-large;
+    }
+
+nav a:visited {  
+    color:#d2b48c;
+    }
+
+nav a:link {  
+    color:#fef6c2;
+    }
+
+#heroroad {
+    background:url("jj4pics/heroroad.jpg");
+    background-size:100;
+    height:250px;
+    }
+
+#heromugs { 
+    background:url("jj4pics/heromugs.jpg");
+    background-size:100;
+    height:250px;
+    }
+#heroguitar {
+    background:url("jj4pics/heroguitar.jpg");
+    background-size:100;
+    height:250px;
+    }
+
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+    padding-left:3em;
+    padding-right:2em;
+    }
+
+
