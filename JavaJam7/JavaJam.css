@@ -1,11 +1,4 @@
-header, nav, main, footer { display:block; }  
-
 @media only screen and (max-width:768px) {
-
-
-* {box-sizing: border-box;} 
-
-.clear {clear:both}
 
 body {  
     background-image:url("background.gif");
@@ -25,16 +18,14 @@ footer {
         }
 
 header {  
+    background-image:url(javajammini.jpg);
     background-color:#d2b48c;
     height:128px;
-    background-image:url(javajammini.jpg);
     background-repeat:no-repeat;
     }
 
 #wrapper {
-    min-width:900px;
-    max-width:1280px;
-    width:80%;
+    width:auth;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -52,16 +43,15 @@ main {
 #details { 
     padding-left:0;
     padding-right:0;
-    overflow: auto;
     }
 
 h1 { 
+    font-size:2em;
+    text-align:center;
+    padding-left:0;
     margin:0;
     padding:10px;
     padding-top:45px;
-    padding-left:0;
-    font-size:2em;
-    text-align:center;
     color:#221811;
     }
  
@@ -154,8 +144,6 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 .floatleft {
     padding-right:0.5em;
     padding-left:0.5em;
-    padding-bottom:2em;
-    float:left;
 }
 
 #mobile {display: inline;}
