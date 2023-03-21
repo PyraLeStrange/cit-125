@@ -13,25 +13,25 @@ label { float:left;
 }
 
 input, textarea { 
-display: block; 
-margin-bottom: 1em; 
+    display: block; 
+    margin-bottom: 1em; 
 }
 
 #mySubmit {margin-left: 9.5em}
 
 table {
-width:90%;
-margin:auto;
-border-spacing:0;
-background-color:#ffffcc;
-}
+    width:90%;
+    margin:auto;
+    border-spacing:0;
+    background-color:#ffffcc;
+    }
 
 td, th {
-padding: 10px;
+    padding: 10px;
 }
 
 tr:nth-of-type(odd) {
-background-color: #d2b48c;
+    background-color: #d2b48c;
 }
 
 header, nav, main, footer { display:block; }  
@@ -167,29 +167,29 @@ nav a:link {
     }
 
 #heroroad {
-    background:url("jjpics/heroroad.jpg");
-    background-size:100;
+    background-image:url("jjpics/heroroad.jpg");
+    background-size:100%;
     height:250px;
     }
 
 #heromugs { 
-    background:url("jjpics/heromugs.jpg");
-    background-size:100;
+    background-image:url("jjpics/heromugs.jpg");
+    background-size:100%;
     height:250px;
     }
 #heroguitar {
-    background:url("jjpics/heroguitar.jpg");
-    background-size:100;
+    background-image:url("jjpics/heroguitar.jpg");
+    background-size:100%;
     height:250px;
     }
 
-/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon buddy...
+/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon buddy...*/
 
 #herojobs {
-    background:url("jjpics/herojobs.jpg");
+    background-image:url("jjpics/herojobs.jpg");
     height:250px;
-    background-size:100;
-}*/
+    background-size:100% 100%;
+}
 
 main h2, main h3, main h4, main p, main div, main ul, main dl {
     padding-left:3em;
@@ -377,7 +377,7 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         }
 
     #heroroad {
-        background:url("jjpics/heroroad.jpg");
+        background-image:url("jjpics/heroroad.jpg");
         background-size:100%;
         height:250px;
         margin:0;
@@ -385,27 +385,27 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         }
 
     #heromugs { 
-        background:url("jjpics/heromugs.jpg");
+        background-image:url("jjpics/heromugs.jpg");
         background-size:100%;
         height:250px;
         margin:0;
         padding:0;
         }
     #heroguitar {
-        background:url("jjpics/heroguitar.jpg");
+        background-image:url("jjpics/heroguitar.jpg");
         background-size:100%;
         height:250px;
         margin:0;
         padding:0;
         }
 
-/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon...
+/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon...*/
 
 #herojobs {
-    background:url("jjpics/herojobs.jpg");
+    background-image:url("jjpics/herojobs.jpg");
     height:250px;
-    background-size:100;
-}*/
+    background-size:100% 100%;
+}
 
     main h2, main h3, main h4, main p, main div, main ul, main dl {
         padding-left:3em;
