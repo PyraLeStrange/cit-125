@@ -1,4 +1,51 @@
+
+/*Desktop devices*/
+
+audio {
+    display:block;
+    margin-top:1em;
+}
+
+form { padding: 2em;
+}
+
+label { float:left;
+    display:block; 
+    text-align:right;
+    width:8em;
+    padding-right:1em;
+    clear:left; 
+}
+
+input, textarea { 
+    display: block; 
+    margin-bottom: 1em; 
+}
+
+#mySubmit {margin-left: 9.5em}
+
+table {
+    width:90%;
+    margin:auto;
+    border-spacing:0;
+    background-color:#ffffcc;
+    }
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d2b48c;
+}
+
 header, nav, main, footer { display:block; }  
+
+.floatleft {
+    float:left;
+    padding-right:2em;
+    padding-bottom:2em;
+}
 
 * {box-sizing: border-box;} 
 
@@ -49,6 +96,12 @@ main {
     background-color:#fef6c2;
     }   
 
+#details { 
+    padding-left:20%;
+    padding-right:20%;
+    overflow: auto;
+    }
+
 h1 { 
     margin:0;
     padding:10px;
@@ -85,13 +138,459 @@ img {
     padding-right:10px;
     }
 
+nav {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+    padding-top:10px;
+    float:left;
+    width: 200px;
+    }
+
+nav a {
+    text-decoration:none;
+    padding:18px;
+    display: block;
+    }
+
+nav ul {
+    list-style-type:none;
+    padding-left:0;
+    }
+
+nav a:hover {
+    color: #cc9933;
+    font-size:xx-large;
+    }
+
+nav a:visited {  
+    color:#d2b48c;
+    }
+
+nav a:link {  
+    color:#fef6c2;
+    }
+
 #heroroad {
     background-image:url("jjpics/heroroad.jpg");
     background-size:100%;
     height:250px;
     }
 
+#heromugs { 
+    background-image:url("jjpics/heromugs.jpg");
+    background-size:100%;
+    height:250px;
+    }
+#heroguitar {
+    background-image:url("jjpics/heroguitar.jpg");
+    background-size:100%;
+    height:250px;
+    }
+
+/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon buddy...*/
+
+#herojobs {
+    background-image:url("jjpics/herojobs.jpg");
+    height:250px;
+    background-size:100% 100%;
+}
+
 main h2, main h3, main h4, main p, main div, main ul, main dl {
     padding-left:3em;
     padding-right:2em;
     }
+
+/*Tablet Devices*/
+@media only screen and (max-width:1024px) {
+
+    form { padding: 2em;
+    }
+
+    label { float:left;
+        display:block; 
+        text-align:right;
+        width:8em;
+        padding-right:1em;
+        clear:left; 
+    }
+
+    input, textarea { 
+    display: block; 
+    margin-bottom: 1em; 
+    }
+
+    #mySubmit {margin-left: 9.5em}
+
+    table {
+    width:90%;
+    margin:auto;
+    border-spacing:0;
+    background-color:#ffffcc;
+    }
+
+    td, th {
+    padding: 10px;
+    }
+
+    tr:nth-of-type(odd) {
+    background-color: #d2b48c;
+    }
+
+    header, nav, main, footer { display:block; }
+
+    .floatleft {
+        float:left;
+        padding-right:2em;
+        padding-bottom:2em;
+    }
+
+    * {box-sizing: border-box;} 
+
+    .clear {clear:both}
+
+    body {  
+        background-image:none;
+        color:#221811;
+        background-color:#fcebb6;
+        font-family :Verdana, Geneva, Tahoma, sans-serif;
+        margin:0;
+        }
+
+    footer {  
+            background-color:#ccaa66;
+            color: #221811;
+            font-size:small;
+            text-align:center;
+            font-style:italic;
+            padding-bottom:10px;
+            border-top:2px;
+            }
+
+    header {  
+        background-color:#d2b48c;
+        height:150px;
+        background-image:url(jjpics/javajammini.jpg);
+        background-repeat:no-repeat;
+        border-bottom:5px solid #fef6c2;
+        }
+
+    #wrapper {
+        min-width:0;
+        max-width:1280px;
+        width:auto;
+        margin:0;
+        padding:0;
+        background-color:#231814;
+        box-shadow:none;
+        }
+
+    main {
+        padding-left:0;
+        padding-right:0;
+        padding-bottom:2em;
+        padding-top:0px;
+        margin-left:200px;
+        margin:0;
+        font-size:90%;
+        background-color:#fef6c2;
+        }   
+
+    #details { 
+        padding-left:20%;
+        padding-right:20%;
+        overflow: auto;
+        }
+
+    h1 { 
+        margin-top:0;
+        margin-bottom:1em;
+        padding-bottom:1em;
+        padding-top:1em;
+        padding-left:220px;
+        font-size:2.5em;
+        text-align:center;
+        color:#221811;
+        }
+    
+    h2 {font-size:1.2em;
+        padding-left:3em;
+        padding-right:2em;
+        padding-bottom:5px;
+        }
+
+    h3 {padding-left:3em;
+        padding-right:2em;
+        }
+
+    h4 {
+        font-size:1.2em;
+        padding-left:.5em;
+        padding-right:2em;
+        padding-bottom:.25em;
+        background-color:#d2b48c;
+        text-transform: uppercase;
+        border-style: outset solid;
+        padding-bottom:0;
+        }
+
+    img {
+        padding-left:10px;
+        padding-right:10px;
+        }
+
+    nav {
+        text-align:center;
+        font-weight:bold;
+        font-size:1.3em;
+        padding-top:0;
+        float:none;
+        width:auto;
+        margin:10px;
+        }
+
+    nav a {
+        text-decoration:none;
+        padding:1em;
+        width:8em;
+        font-weight:bold;
+        border-style:none;
+        display: block;
+        }
+
+    nav ul {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a:hover {
+        color: #cc9933;
+        font-size:xx-large;
+        }
+
+    nav a:visited {  
+        color:#d2b48c;
+        }
+
+    nav a:link {  
+        color:#fef6c2;
+        }
+
+    #heroroad {
+        background-image:url("jjpics/heroroad.jpg");
+        background-size:100%;
+        height:250px;
+        margin:0;
+        padding:0;
+        }
+
+    #heromugs { 
+        background-image:url("jjpics/heromugs.jpg");
+        background-size:100%;
+        height:250px;
+        margin:0;
+        padding:0;
+        }
+    #heroguitar {
+        background-image:url("jjpics/heroguitar.jpg");
+        background-size:100%;
+        height:250px;
+        margin:0;
+        padding:0;
+        }
+
+/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon...*/
+
+#herojobs {
+    background-image:url("jjpics/herojobs.jpg");
+    height:250px;
+    background-size:100% 100%;
+}
+
+    main h2, main h3, main h4, main p, main div, main ul, main dl {
+        padding-left:3em;
+        padding-right:2em;
+        }
+}
+
+/*Mobile phones*/
+@media only screen and (max-width:768px) {
+
+    form { padding: 2em;
+    }
+
+    label { float:left;
+        display:block; 
+        text-align:right;
+        width:8em;
+        padding-right:1em;
+        clear:left; 
+    }
+
+    input, textarea { 
+    display: block; 
+    margin-bottom: 1em; 
+    }
+
+    #mySubmit {margin-left: 9.5em}
+
+    table {
+    width:90%;
+    margin:auto;
+    border-spacing:0;
+    background-color:#ffffcc;
+    }
+
+    td, th {
+    padding: 10px;
+    }
+
+    tr:nth-of-type(odd) {
+    background-color: #d2b48c;
+    }
+
+    body {  
+        background-image:url("jjpics/background.gif");
+        color:#221811;
+        background-color:#fcebb6;
+        font-family :Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    footer {  
+            background-color:#ccaa66;
+            color: #221811;
+            font-size:small;
+            text-align:center;
+            font-style:italic;
+            padding-bottom:10px;
+            border-top:2px;
+            }
+
+    header {  
+        background-image:url(jjpics/javajammini.jpg);
+        background-color:#d2b48c;
+        height:128px;
+        background-repeat:no-repeat;
+        }
+
+    #wrapper {
+        width:auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background-color:#231814; 
+        }
+
+    main {
+        padding-top:1px;
+        padding-left:0;
+        padding-right:0;
+        padding-bottom:2em;
+        background-color:#fef6c2;
+        }   
+
+    #details { 
+        padding-left:0;
+        padding-right:0;
+        }
+
+    h1 { 
+        font-size:2em;
+        text-align:center;
+        padding-left:0;
+        margin:0;
+        padding:10px;
+        padding-top:45px;
+        color:#221811;
+        }
+    
+    h2 {
+        padding-top:0.5em;
+        padding-right:0;
+        padding-bottom:0;
+        padding-left:0.5em;
+        margin-right:0.5em;
+        font-size:1.2em;
+        }
+
+    h3 {padding-left:3em;
+        padding-right:2em;
+        }
+
+    h4 {
+        font-size:1.2em;
+        padding-left:.5em;
+        padding-right:2em;
+        padding-bottom:.25em;
+        background-color:#d2b48c;
+        text-transform: uppercase;
+        border-style: outset solid;
+        padding-bottom:0;
+        }
+
+    img {
+        padding-left:10px;
+        padding-right:10px;
+        }
+
+    nav {
+        margin:0;
+        text-align:center;
+        font-weight:bold;
+        font-size:1.5em;
+        }
+
+    nav a {
+        display: block;
+        padding:0.2em;
+        width:auto;
+        border-bottom:1px solid;
+        border-color:#fef6c2;
+        text-decoration:none;
+        }
+
+    nav li {
+        display:block;
+    }
+
+    nav ul {
+        list-style-type:none;
+        padding-left:0;
+        }
+
+    nav a:hover {
+        color: #cc9933;
+        font-size:xx-large;
+        }
+
+    nav a:visited {  
+        color:#d2b48c;
+        }
+
+    nav a:link {  
+        color:#fef6c2;
+        }
+
+    #heroroad, #heromugs, #heroguitar, #herojobs {
+        background:none;
+        height:auto;
+        }
+
+    main h2, main h3, main h4, main p, main div, main ul, main dl {
+        padding-left:3em;
+        padding-right:2em;
+        }
+
+    .floatleft {
+        padding-right:0.5em;
+        padding-left:0.5em;
+    }
+
+    #mobile {display: inline;}
+    #desktop {display: none;}
+}
