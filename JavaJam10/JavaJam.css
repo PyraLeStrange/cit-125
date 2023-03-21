@@ -188,8 +188,6 @@ nav a:link {
     height:250px;
     }
 
-/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon buddy...*/
-
 #herojobs {
     background-image:url("jjpics/herojobs.jpg");
     height:250px;
@@ -203,6 +201,10 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 
 /*Tablet Devices*/
 @media only screen and (max-width:1024px) {
+    audio {
+        display:block;
+        margin-top:1em;
+    }
 
     form { padding: 2em;
     }
@@ -404,14 +406,11 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         padding:0;
         }
 
-/* I need the picture, sent email to Prof Moore on 3/20 you'll join your friends soon...*/
-
 #herojobs {
     background-image:url("jjpics/herojobs.jpg");
     height:250px;
     background-size:100% 100%;
 }
-
     main h2, main h3, main h4, main p, main div, main ul, main dl {
         padding-left:3em;
         padding-right:2em;
@@ -421,6 +420,10 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
 /*Mobile phones*/
 @media only screen and (max-width:768px) {
 
+    audio {
+        display:block;
+        margin-top:1em;
+    }
     form { padding: 2em;
     }
 
